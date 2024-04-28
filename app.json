@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Vidiq",
+    "slug": "vidiq",
+    "scheme": "vidiq",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/applogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splashlogo.png",
+      "className": " w-8 h-8",
+      "resizeMode": "contain",
+      "backgroundColor": "#151522"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/applogo.png",
+        "backgroundColor": "#151522"
+      },
+      "package": "com.pro.vidiq"
+    },
+    "web": {
+      "favicon": "./assets/images/logo-small.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c35a9796-cc5e-48a0-a2aa-6a12d7450db7"
+      }
+    }
+  }
+}
